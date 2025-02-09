@@ -1,7 +1,7 @@
 const monk = require('monk')
 
 // Connection URL
-var url = "mongodb+srv://vean:123@cluster0.vv8aleu.mongodb.net/?retryWrites=true&w=majority";
+var url = "mongodb+srv://vean:123@clustervean.rbxkk.mongodb.net/?retryWrites=true&w=majority&appName=ClusterVean";
 try {
     if (url == '') throw console.log('Cek konfigurasi database, var url belum diisi');
 } catch (e) {
